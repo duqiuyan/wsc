@@ -178,7 +178,7 @@ li.hot_img{-webkit-tap-highlight-color: rgba(0,0,0,0);outline: 0;margin: 0;paddi
 .notice dd ul li{height:40px;line-height:40px;overflow:hidden;}
 
 .foot-nav{position:fixed;-webkit-box-flex: 1;left:0;bottom:0;background:#f3f3f3;width:100%;overflow:hidden;z-index:99;}
-.foot-nav a{float:left;width:25%;text-align:center;line-height: 1.2; }
+.foot-nav a{float:left;width:25%;text-align:center;line-height: 1.2;padding: 0 0 1%;}
 .foot-nav a i{display:block;margin:4px auto 0;width:24px;height:24px;background:url(../images/bottom_nav.png) no-repeat;}
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
 .foot-nav a i{background:url(../images/bottom_nav@2x.png) no-repeat;background-size:96px 48px;}
