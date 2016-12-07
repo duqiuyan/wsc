@@ -133,12 +133,13 @@ footer {background:#fff;padding-bottom:70px;clear:both;}
 .floor ul li .aditem a {display:block;height: 90px; }
 .floor ul li .aditem a.two {-webkit-box-flex:1;-moz-box-flex:1;width:50%;-webkit-flex:1;-moz-flex:1;-ms-flex:1;-o-flex:1;flex:1;}
 .floor ul li .aditem a.two:first-child {border-right:solid 1px #eeeeee;-webkit-border-image: url(../images/border2.gif) 0 2 round;border-image: url(../images/border2.gif) 0 2 round;border-width:0 1px 0 0;}
-.floor ul li .aditem img {width:52px;display:block; margin: 10px 0px 0px 10px;}
+.floor ul li .aditem img {width:52px;display:block; margin: 18px 0px 0px 10px;}
 
 .chanpin h3 { height:40px;line-height:40px;font-size:16px;padding:0 10px;color:#2c3e50;border-bottom:solid 1px #eeeeee;-webkit-border-image: url(../images/border.gif) 2 0 round;border-image: url(../images/border.gif) 2 0 round;border-width:0 0 1px 0;}
 .chanpin h3 i { display:inline-block;width:4px;height:16px;background:#f44623;border-radius:4px;vertical-align:middle;position:relative;bottom:2px;margin-right:5px;}
-h4 {font-size: 16px;color: #232323;padding-top: 15px;padding-left: 10px;}
-.zhongdian p {padding-left: 10px;font-size: 12px;}
+h4 {font-size: 16px;color: #232323;padding-top: 0px;padding-left: 68px;}
+.zhongdian {display: block;float: right;margin-top: -42px;}
+.zhongdian p {padding-left: 68px;font-size: 12px;}
 .AD_link img {width: 100%;}
 .AD_link {margin-bottom: -5px;}
 p.in {padding: 5px 0px 0px 10px;}
@@ -212,65 +213,10 @@ a.on.active .vip{color: red;}
 }
 dt.go {
     font-size: 12px;
-    margin-left: 34px;
+    margin-left: 36px;
     margin-top: -30px;
-    border-bottom: 1px solid #eee;
 }
-dl.address a,dl.service a {
-    color: #252525;
-}
-dl.address img {
-    width: 20px;
-    padding-left: 5px;
-}
-dl.pro-count{
-    font-size: 15px;
-    padding: 10px;
-}
-a.Increase,a.Decrease {
-    float: right;
-    font-size: 15px;
-    text-align: center;
-    height: 100%;
-    background: #fff;
-    border: 1px solid #cbcbcb;
-    color: #232326;
-    display: block;
-    line-height: 24px;
-    width: 24px;
-}
-input#num {
-    float: right;
-    font-size: 15px;
-    text-align: center;
-    height: 24px;
-    color: #232326;
-    border: solid #cbcbcb;
-    border-width: 1px 0 1px 0;
-    width: 34px;
-    border-radius: 0;
-    -webkit-appearance: none;
-}
-span.part-note-msg {
-    float: left;
-}
-dt#a {
-    padding: 0px 10px 30px 10px;
-}
-select#ps_sheng {
-    height: 30px;
-    border: solid 1px #ddd;
-    margin-right: 5px;
-}
-select {
-    -webkit-appearance: none;
-    height: 28px;
-    -webkit-padding-end: 18px;
-    -webkit-padding-start: 6px;
-    background-position: right center;
-    background-repeat: no-repeat;
-    background-image: url('../images/xz.png');
-}
+
 .feedback .row {
     width: 100%;
     background-color: #fff;
@@ -292,53 +238,63 @@ textarea {
     -webkit-appearance: none;
     margin-right: 10px;
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 14px;
 }
-.address img,.service img,.time img,.number img{
-    width: 20px;
+.address img,.service img,.time img,.number img,.coupon img{
+    width: 24px;
     padding-top: 10px;
 }
 p.from {
-    font-size: 14px;
-    color: #000;
+    font-size: 16px;
+    color: #333333;
     line-height: 28px;
     padding-bottom: 5px;
 }
-.address,.service,.time,.number {
-    margin-left: 10px;
+.address,.service,.time,.number,.coupon{
+    margin-left: 12px;
 }
 p.from img {
     float: right;
     width: 16px;
     margin-top: -2px;
 }
-.service .go {
+.coupon .go {
     border-bottom: 1px dashed #eee;
+}
+.address .go,.service .go,/*.time .go,*/.number .go {
+    border-bottom: 1px solid #eee;
 }
 button.decrease,button.increase {
     font-style: normal;
     font-size: 16px;
     font-weight: 700;
-    border: 0;
     display: inline-block;
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
     -webkit-user-select: none;
-    background: #ededed;
+    background-color: #fff;
+    border-radius: 14px;
+    border: 1px solid #ededed;
+    text-align: center;
 }
 button.increase{
     color: #ffa935
 }
 input#goods_number_1789 {
-    height: 24px;
+    height: 28px;
     width: 24px;
     border: 0;
     text-align: center;
+    font-size: 16px;
+    color: #000;
 }
 span.txt {
     display: block;
     float: right;
     margin-top: -32px;
-    margin-right: 36px;
+    margin-right: 14px;
 }
-
+button#demo1 {
+    background-color: #fff;
+    color: #000;
+}

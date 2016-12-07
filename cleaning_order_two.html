@@ -24,18 +24,27 @@
             .star_tatle a {
                     margin: 2px 10px;
                 }
+            textarea{
+                    width: 92%;
+            }
           }
           /*苹果6p尺寸适配414x736*/
           @media screen and (max-width: 736px){
             .star_tatle a {
                     margin: 2px 7px;
                 }
+            textarea{
+                    width: 89%;
+            }
           }
           /*尺寸适配384x567*/
           @media screen and (max-width: 567px){
             .star_tatle a {
                     margin: 2px 3px;
                 }
+            textarea{
+                    width: 84%;
+            }
           }
 
           /*苹果6/6s尺寸适配 375x667*/
@@ -43,6 +52,9 @@
             .star_tatle a {
                     margin: 2px 3px 2px 3px;
                 }
+            textarea{
+                    width: 82%;
+            }
           }
 
          /*苹果4尺寸适配320x480  5s尺寸 320x568 */
@@ -50,6 +62,9 @@
             .star_tatle a {
                     margin: 2px;
                 }
+            textarea{
+                    width: 80%;
+            }
           }
         </style> 
     </head> 
@@ -108,9 +123,7 @@
             <div class="number">
                 <img src="images/renshu.png">
                 <dt class="go">服务人数：
-                    <p class="from">请选择数量
-                        <img src="images/arrow.png">
-                    </p>
+                    <p class="from">请选择数量</p>
                 </dt>
                 <span class="txt"> 
                     <button type="button" class="decrease" onclick="changenum(1789,-1)">-</button>
@@ -128,6 +141,7 @@
                     </dt>
                 </a>
             </div>
+            <div class="xiaotiao"></div>
             <div class="service">
                 <a href="">
                     <img src="images/people.png">
@@ -138,7 +152,7 @@
                     </dt>
                 </a>
             </div>
-            <div class="time">
+            <div class="coupon">
                 <a href="coupon.html">
                     <img src="images/youhui.png">
                     <dt class="go">优惠券：
@@ -146,10 +160,10 @@
                             <img src="images/arrow.png">
                         </p>
                     </dt>
-                    <div class="row mui-input-row">
-                    <textarea id="question" class="mui-input-clear question" placeholder="亲，可以把您的其他需求留言给我们哦！"></textarea>
-                </div>
                 </a>
+                <div class="row mui-input-row">
+                    <textarea id="question" class="mui-input-clear question" placeholder="亲,可以把您的其他需求留言给我们哦!"></textarea>
+                </div>
             </div>
         </div>
         <div class="foot-nav border_top hide" style=""> 
