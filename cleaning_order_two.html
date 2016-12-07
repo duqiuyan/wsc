@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8"/> 
+        <title>微商城</title> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>  
+        <meta name="apple-itunes-app" content="app-id=927873366"/> 
+        <meta name="apple-mobile-web-app-capable" content="yes"/> 
+        <meta name="apple-mobile-web-app-status-bar-style" content="black"/> 
+        <meta name="location" content="province=;city=;coord="/> 
+        <meta name="format-detection" content="telephone=no"/> 
+        <link rel="apple-touch-icon-precomposed" href="images/screenLogo.png"/> 
+        <script type="text/javascript" name="baidu-tc-cerfication" data-appid="5193667" src="js/lightapp.js" data-beizhu="百度直达号"></script> 
+        <link rel="stylesheet" type="text/css" href="css/m2015.css"/> 
+        <script src="js/zepto.min.js" type="text/javascript"></script> 
+        <script src="js/main.js" type="text/javascript"></script> 
+        <script src="js/swiper.min.js" type="text/javascript"></script> 
+        <link rel="stylesheet" type="text/css" href="css/swiper.min.css"/> 
+        <style>.hot-news-roller dt{width:75px;}.hot-news-roller dd{margin-right:0;}.hot-news-roller dd ul li i{display:inline-block;border:solid 1px #f44623;color:#f44623;height:18px;line-height:18px;padding:0 5px;border-radius:5px;margin-right:5px;font-size:12px;}
+        </style>
+        <style type="text/css">
+          /*尺寸适配1280*/
+          @media screen and (max-width: 1280px){
+            .star_tatle a {
+                    margin: 2px 10px;
+                }
+          }
+          /*苹果6p尺寸适配414x736*/
+          @media screen and (max-width: 736px){
+            .star_tatle a {
+                    margin: 2px 7px;
+                }
+          }
+          /*尺寸适配384x567*/
+          @media screen and (max-width: 567px){
+            .star_tatle a {
+                    margin: 2px 3px;
+                }
+          }
+
+          /*苹果6/6s尺寸适配 375x667*/
+          @media screen and (max-width: 375px){
+            .star_tatle a {
+                    margin: 2px 3px 2px 3px;
+                }
+          }
+
+         /*苹果4尺寸适配320x480  5s尺寸 320x568 */
+          @media screen and (max-width: 320px){
+            .star_tatle a {
+                    margin: 2px;
+                }
+          }
+        </style> 
+    </head> 
+<body> 
+    <header id="header" style=""> 
+        <div class="topbar"> 
+            <a href="javascript:history.back();" class="back_btn"><i class="iconfont">ş</i></a> 
+            <h1 class="page_title">钟点保洁</h1> 
+        </div> 
+    </header>  
+        <div class="bannerbox"> 
+            <div class="banner"> 
+                <ul> 
+                    <li><a href=""> <img src="images/fwzs_meitu_1.jpg"/></a></li> 
+                    <li><a href=""> <img src="images/fwzs_meitu_2.jpg"/></a></li>
+                    <li><a href=""> <img src="images/fwzs_meitu_3.jpg"/></a></li>  
+                </ul> 
+                <div class="ban-nav">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div> 
+            </div> 
+        </div>
+        <script>$(".banner").css({height:$(".banner").width()/640*240 });$('.banner').swipeSlide({continuousScroll:true,speed:3000,transitionType:'cubic-bezier(0.22, 0.69, 0.72, 0.88)'
+          },function (i) {$('.ban-nav').children().eq(i).addClass('cur').siblings().removeClass('cur');});$("#s_inputbox").css({width:$(window).width()-90});function clearHistory() {$.get("",function (res) {if (res.status ==1) {$(".search-history p").html('<a href="javascript:;">暂无搜索历史...</a>');}
+          });}
+        </script>
+        <div class="star_tatle">
+            <a href="">
+                <p class="star">三星级</p>
+                <p class="vip">会&nbsp&nbsp&nbsp员：￥20.00</p>
+                <p>非会员：￥24.00</p>
+            </a>
+            <a href="">
+                <p class="star">四星级</p>
+                <p class="vip">会&nbsp&nbsp&nbsp员：￥27.00</p>
+                <p>非会员：￥33.00</p>
+            </a>
+            <a href="" class="on active">
+                <p class="star">五星级</p>
+                <p class="vip">会&nbsp&nbsp&nbsp员：￥36.00</p>
+                <p>非会员：￥43.00</p>
+            </a>           
+        </div>
+        <div class="xiaotiao"></div>
+        <div class="clearfloat">
+            <div class="address">
+                <a href="">
+                    <img src="images/address.png">
+                    <dt class="go">配送地址：
+                       <p class="from">请选择服务地址<img src="images/arrow.png"></p>
+                    </dt>
+                </a>
+            </div>
+            <div class="number">
+                <img src="images/renshu.png">
+                <dt class="go">服务人数：
+                    <p class="from">请选择数量
+                        <img src="images/arrow.png">
+                    </p>
+                </dt>
+                <span class="txt"> 
+                    <button type="button" class="decrease" onclick="changenum(1789,-1)">-</button>
+                    <input class="num" type="text" min="1" max="1000" name="goods_number[1789]" id="goods_number_1789" value="1" size="4" onkeyup="changenum(1789,0)">
+                    <button type="button" class="increase" onclick="changenum(1789,1)">+</button>                            
+                </span>
+            </div>
+            <div class="time">
+                <a href="">
+                    <img src="images/time.png">
+                    <dt class="go">服务时间：
+                        <p class="from">请选择服务时间段
+                            <img src="images/arrow.png">
+                        </p>
+                    </dt>
+                </a>
+            </div>
+            <div class="service">
+                <a href="">
+                    <img src="images/people.png">
+                    <dt class="go">服务人员：
+                        <p class="from">请选择服务服务人员
+                            <img src="images/arrow.png">
+                        </p>
+                    </dt>
+                </a>
+            </div>
+            <div class="time">
+                <a href="coupon.html">
+                    <img src="images/youhui.png">
+                    <dt class="go">优惠券：
+                        <p class="from">请选择优惠券
+                            <img src="images/arrow.png">
+                        </p>
+                    </dt>
+                    <div class="row mui-input-row">
+                    <textarea id="question" class="mui-input-clear question" placeholder="亲，可以把您的其他需求留言给我们哦！"></textarea>
+                </div>
+                </a>
+            </div>
+        </div>
+        <div class="foot-nav border_top hide" style=""> 
+            <div class="more">
+                <p class="amount">总计：￥<span class="money">0.00</span></p>
+            </div>
+            <div class="place_order">
+                <p>提交订单</p>              
+            </div>
+        </div>
+        <script>var url =location.href;var platfomrs =["360ad","goad","juxad","zhtad","ttad","tead","snswxtsad","snswxgnad","snsxlad","snstxad","snsqzad","snstbzad","snstbwad","snsblad","snshzad","snsqtad","mgzhad","mttad"];for (index in platfomrs) {if (url.indexOf(platfomrs[index]) >0) {Cookie.Set("sem","on",60 *60 *3);} }</script>  
+        <script>$("#closeAppTJ").click(function () {$("#appBanner").hide();Cookie.Set("app_banner",1);});$(function () {if (Cookie.Get("app_banner") !=1 &&Cookie.Get("isApp") !=1) {$("#appBanner").show();}
+        });</script> 
+        <script type="text/javascript">$(".foot-nav").show();$(".foot-nav a").eq(0).addClass("cur");$(".search-btn").tap(function () {$(".index_search").show();$("#s_inputbox").focus();$("body").css({overflow:"hidden",height:$(window).height()});});function closeSearch() {$(".index_search").hide();$("body").css({overflow:"auto",height:"auto" });}
+        function scrollUp(tag,height,timer) {tag.each(function () {var ul =$(this).find("ul");setInterval(function () {ul.animate({marginTop:-height },"normal",function () {ul.find("li:first").clone().appendTo(ul);ul.find("li:first").remove();ul.css({marginTop:0 });});},timer);});};scrollUp($(".notice-roller"),40,3000);$(function () {var UArea ={pid:"3363",zid:"3364",did:"3365",dname:"泉州"};if (Cookie.Get("seted") =="1") {$("#cityName").html(Cookie.Get("dnamec"));} else if (Cookie.ISCookie()) {var cityName =Cookie.Get('dnamec');var cityId =Cookie.Get('cityid');if (cityName ==null ||cityName =="" ||cityId ==null) {if (navigator.geolocation) {var watchInterval =navigator.geolocation.getCurrentPosition(getPositionSuccess,getPositionError,{timeout:15000,maximumAge:0 });}
+        else {setDefual();}
+        function getPositionSuccess(position) {var lat =position.coords.latitude;var lng =position.coords.longitude;$.post("js/getarea.ashx",{"act":"myAddress","lat":lat,"lng":lng },function (data) {if (data.stats ==1) {$("#cityName").html(data.cityname);var times =24 *300;Cookie.Set('pidc',data.pidc,times);Cookie.Set('zidc',data.zidc,times);Cookie.Set('didc',data.didc,times);Cookie.Set('cityid',data.cityid,times);Cookie.Set('dnamec',data.cityname,times);Cookie.Set('ischecked',"1",times);Cookie.Set('hasshop',data.hasShop,times);}
+        },"json");}
+        function getPositionError(error) {setDefual();}
+        }
+        else {$("#cityName").html(cityName);}
+        }
+        else {setDefual();}
+        function setDefual() {$("#cityName").html(UArea.dname);var times =24 *300;Cookie.Set('pidc',UArea.pid,times);Cookie.Set('zidc',UArea.zid,times);Cookie.Set('didc',UArea.did,times);Cookie.Set('cityid',UArea.did,times);Cookie.Set('dnamec',UArea.dname,times);Cookie.Set('ischecked',"1",times);Cookie.Set('hasshop',"false",times);}
+        $("#btnSerach").click(function () {var txt =strFilter1($("#s_inputbox").val());var url =txt =="" ?"brandlist.aspx" :("/search?wordkey=" + encodeURI(txt));window.location.href =url;});var flag =false;$("#s_inputbox").focus(function () {$(this).trigger("keyup");});$("#s_inputbox").keyup(function () {if (flag) {$("#cls").hide();$(".two").removeClass("two").addClass("one");}
+        flag =true;var txt =strFilter1($("#s_inputbox").val());$.ajax({url:"ajax/ajaxOperate.aspx?act=ajaxsearch",data:{w:txt,t:Math.random() },type:"get",dataType:"json",success:function (d) {var html ="";if (d.result ==1) {for (var i =0;i < d.info.length;i++) {html +='<li><a href="search?wordkey=' + d.info[i].name + '&pId=' + d.info[i].productId + '">' + d.info[i].name + '</a></li>';}
+        $("#s_list_box ul").html(html);$("#s_list_box").show();}
+        },error:function () {}
+        });});$("#s_inputbox").keypress(function (e) {if (e.keyCode ==13) {$("#btnSerach").click();} });function clsRecord() {$.post("ajax/ajaxoperate.aspx?act=clearSearcheContent",{},function () {$('#s_list_box').hide();},"text");}
+        });function closeDownad() {$(".downad").hide();Cookie.Set("downad",1,30 *24);}
+        $(document).on("click","a",function () {if ($(this).attr("href") !="#" &&$(this).attr("href") !="" &&$(this).attr("href").indexOf("javascript") ==-1 &&$(this).attr("href").indexOf("tel") ==-1) {layer.closeAll();}
+        });</script>
+        <script>
+        function changenum(rec_id,diff){
+                    var num = parseInt(document.getElementById('goods_number_'+rec_id).value);
+                    var goods_number = num + Number(diff);
+                    if( goods_number >= 1){
+                        document.getElementById('goods_number_'+rec_id).value = goods_number;//更新数量
+                        change_goods_number(rec_id,goods_number);
+                    }
+        }
+        
+        function change_goods_number(rec_id, goods_number)
+        {   
+        Ajax.call('flow.php?step=ajax_update_cart', 'rec_id=' + rec_id +'&goods_number=' + goods_number, change_goods_number_response, 'POST','JSON');  
+        } 
+        
+        function change_goods_number_response(result)
+        {    
+          if (result.error == 0)
+          {
+          var rec_id = result.rec_id;
+            document.getElementById('total_number').innerHTML = result.total_number;//更新数量
+            document.getElementById('goods_subtotal').innerHTML = result.total_desc;//更新小计
+            if (document.getElementById('ECS_CARTINFO'))
+              {//更新购物车数量
+              document.getElementById('ECS_CARTINFO').innerHTML = result.cart_info;
+              }
+        }
+        else if (result.message != '')
+          {
+          alert(result.message);
+          }                
+        }
+      </script>   
+ </body>
+</html>
