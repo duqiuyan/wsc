@@ -216,61 +216,7 @@ dt.go {
     margin-top: -30px;
     border-bottom: 1px solid #eee;
 }
-dl.address a,dl.service a {
-    color: #252525;
-}
-dl.address img {
-    width: 20px;
-    padding-left: 5px;
-}
-dl.pro-count{
-    font-size: 15px;
-    padding: 10px;
-}
-a.Increase,a.Decrease {
-    float: right;
-    font-size: 15px;
-    text-align: center;
-    height: 100%;
-    background: #fff;
-    border: 1px solid #cbcbcb;
-    color: #232326;
-    display: block;
-    line-height: 24px;
-    width: 24px;
-}
-input#num {
-    float: right;
-    font-size: 15px;
-    text-align: center;
-    height: 24px;
-    color: #232326;
-    border: solid #cbcbcb;
-    border-width: 1px 0 1px 0;
-    width: 34px;
-    border-radius: 0;
-    -webkit-appearance: none;
-}
-span.part-note-msg {
-    float: left;
-}
-dt#a {
-    padding: 0px 10px 30px 10px;
-}
-select#ps_sheng {
-    height: 30px;
-    border: solid 1px #ddd;
-    margin-right: 5px;
-}
-select {
-    -webkit-appearance: none;
-    height: 28px;
-    -webkit-padding-end: 18px;
-    -webkit-padding-start: 6px;
-    background-position: right center;
-    background-repeat: no-repeat;
-    background-image: url('../images/xz.png');
-}
+
 .feedback .row {
     width: 100%;
     background-color: #fff;
@@ -294,7 +240,7 @@ textarea {
     border-radius: 5px;
     font-size: 12px;
 }
-.address img,.service img,.time img,.number img{
+.address img,.service img,.time img,.number img,.coupon img{
     width: 20px;
     padding-top: 10px;
 }
@@ -304,7 +250,7 @@ p.from {
     line-height: 28px;
     padding-bottom: 5px;
 }
-.address,.service,.time,.number {
+.address,.service,.time,.number,.coupon{
     margin-left: 10px;
 }
 p.from img {
@@ -312,7 +258,7 @@ p.from img {
     width: 16px;
     margin-top: -2px;
 }
-.service .go {
+.coupon .go {
     border-bottom: 1px dashed #eee;
 }
 button.decrease,button.increase {
@@ -339,6 +285,6 @@ span.txt {
     display: block;
     float: right;
     margin-top: -32px;
-    margin-right: 36px;
+    margin-right: 20px;
 }
 
