@@ -215,6 +215,7 @@ dt.go {
     font-size: 12px;
     margin-left: 36px;
     margin-top: -30px;
+    border-bottom: 1px solid #eee;
 }
 
 .feedback .row {
@@ -241,7 +242,7 @@ textarea {
     font-size: 14px;
 }
 .address img,.service img,.time img,.number img,.coupon img{
-    width: 24px;
+    width: 20px;
     padding-top: 10px;
 }
 p.from {
@@ -251,7 +252,7 @@ p.from {
     padding-bottom: 5px;
 }
 .address,.service,.time,.number,.coupon{
-    margin-left: 12px;
+    margin-left: 10px;
 }
 p.from img {
     float: right;
@@ -297,4 +298,5 @@ span.txt {
 button#demo1 {
     background-color: #fff;
     color: #000;
+    margin-right: 20px;
 }
