@@ -7,7 +7,7 @@ body {
     font-size: 14px;
     background-color: #fff;
     height: 100%;
-    max-width: 640px;
+    /*max-width: 640px;*/
     margin: 0 auto;
 }
 li, ul {
@@ -94,22 +94,16 @@ section {
 .coupon-content ul{ margin: 10px;}
 .myorder-content ul{ margin: 10px 0;}
 .cc-all ul,.mc-all{ margin: 0;}
-.cc-all ul li{ 
-    padding: 5px 0;
+/*.cc-all ul li{ 
+    padding: 10px 10px;
     border-bottom: 1px solid #EDEDED;
-}
-.cc-all ul li .coupon-sum,
-.cc-two ul li .coupon-sum>.cc-mask {
+}*/
+.cc-mask {
     position: relative;
-    width: 115px;
-    height: 60px;
     background: #fff none repeat scroll 0% 0%;
 }
-.cc-two ul li .coupon-sum>.cc-mask{
-    position: absolute;
-    top: 0;
+.cc-mask{
     opacity: 0.6;
-    z-index: 2;
 }
 .cc-all ul li .coupon-text {
     height: 60px;
@@ -126,4 +120,101 @@ section {
 }
 .tab_content{ display: none !important;}
 .show{ display: block !important;}
+
+/*li.honbao {
+    background-color: #fe905a;
+    color: #FFF;
+    border-radius: 10px;
+    padding: 0.5rem;
+    position: relative;
+    height: 130px;
+    margin-bottom: 0.5rem;
+}
+em.status {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 1rem;
+    font-style: normal;
+}
+.serial_number {
+    border-bottom: 1px dashed #fa5e11;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 1rem;
+}
+span.Money {
+    font-size: 3rem;
+    font-weight: bold;
+    float: left;
+}
+i {
+    font-size: 2rem;
+    font-weight: normal;
+}
+h3 {
+    font-size: 1rem;
+    font-weight: normal;
+    position: absolute;
+    top: 99px;
+    left: 20px;
+}
+.honbao .time {
+    margin-top: 5.0rem;
+    line-height: 24px;
+}*/
+
+
+
+.yhq-pic {
+    background: url(../images/yhq.png) no-repeat;
+    background-size: 100% 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.yhq a {
+    color: #000;
+}
+.yhq-pic .price {
+    width: 40%;
+    text-align: center;
+    float: left;
+    color: #333;
+}
+.yhq-pic .price span {
+    color: #cb2527;
+    font-size: 2rem;
+    display: block;
+    padding-top: 15px;
+}
+.yhq-pic .price p {
+    font-size: 0.8rem;
+}
+.yhq-pic .text {
+    float: left;
+    width: 50%;
+}
+.yhq-pic .info {
+    color: #cb2527;
+    margin-top: 15px;
+}
+.yhq-pic .user {
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+    color: #333;
+}
+.yhq-pic .time {
+    font-size: 0.7rem;
+    color: #333;
+}
+.yhq-pic .text {
+    float: left;
+    width: 50%;
+    margin-top: -8px;
+}
+.gy-pic {
+    position: absolute;
+    padding-top: 15px;
+    left: 35%;
+}
 
