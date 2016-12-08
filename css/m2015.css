@@ -1,4 +1,4 @@
-﻿body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;-webkit-overflow-scrolling : touch;}
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;-webkit-overflow-scrolling : touch;}
 body,button,input,select,textarea{font:14px/1.5 tahoma,Verdana,arial,microsoft yahei,"\5b8b\4f53";*line-height:1.5;color:#676b70;}
 a{color:#676b70;text-decoration:none;hide-focus:expression(this.hideFocus=true);outline:none;}
 table{border-collapse:collapse;border-spacing:0;}
@@ -222,9 +222,7 @@ dt.go {
     background-color: #fff;
 }
 .mui-input-row {
-    margin-top: 10px;
-    overflow: hidden;
-    padding-bottom: 57px;
+    padding-bottom: 150px;
 }
 textarea {
     line-height: 20px;
@@ -297,4 +295,20 @@ span.txt {
 button#demo1 {
     background-color: #fff;
     color: #000;
+}
+.coupon_number p {
+    color: #333;
+    font-size: 16px;
+    padding: 10px 0px;
+}
+.coupon_number {
+    display: block;
+    float: left;
+    margin-left: 35px;
+}
+input[type="people-name"] {
+    background-color: #fff;
+    border: 1px solid #999;
+    height: 24px;
+    padding: 0px 0px 0px 5px;
 }
