@@ -1,4 +1,4 @@
-body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;-webkit-overflow-scrolling : touch;}
+﻿body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;-webkit-overflow-scrolling : touch;}
 body,button,input,select,textarea{font:14px/1.5 tahoma,Verdana,arial,microsoft yahei,"\5b8b\4f53";*line-height:1.5;color:#676b70;}
 a{color:#676b70;text-decoration:none;hide-focus:expression(this.hideFocus=true);outline:none;}
 table{border-collapse:collapse;border-spacing:0;}
@@ -312,3 +312,9 @@ input[type="people-name"] {
     height: 24px;
     padding: 0px 0px 0px 5px;
 }
+
+
+
+
+
+
