@@ -13,7 +13,7 @@
 $.fn.noop = function () { };
 $.now = function () { return (new Date).getTime(); };
 
-var SiteName = "三九手机网";
+var SiteName = "微商城";
 /*选择城市*/
 /*设置cookie*/
 var Cookie = {

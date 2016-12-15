@@ -2,40 +2,61 @@ html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, l
     margin:0;
     padding:0;
 }
-body {
+body{
     font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
     font-size: 14px;
     background-color: #fff;
     height: 100%;
-    /*max-width: 640px;*/
     margin: 0 auto;
 }
-li, ul {
+li, ul{
     margin: 0;
     padding: 0;
     border: none;
 }
-li, ul { list-style-type: none;}
+li, ul{
+    list-style-type: none;
+}
 img {
     border: 0;
     border: none;
     width: 85%;
 }
-.cl{ clear:both;}
-.fl{ float: left;}
-.fr{ float: right;}
-.text-right { text-align: right;}
-.text-center { text-align: center;}
-section {
+.cl{
+    clear:both;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.text-right{
+    text-align:right;
+}
+.text-center{
+    text-align:center;
+}
+section{
     display: block;
 }
-*::before, *::after {
+*::before, *::after{
     box-sizing: border-box;
 }
-.topbar {
+header.headerBar {
+    position: fixed;
+    z-index: 9990;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 1px 6px #ccc;
+}
+.content {
+    padding-top: 45px;
+}
+.topbar{
     background: #ffa935;
 }
-.back_btn {
+.back_btn{
     display: block;
     width: 38px;
     height: 38px;
@@ -44,7 +65,7 @@ section {
     background-size: 100%;
     margin-top: 3px;
 }
-.page_title {
+.page_title{
     text-align: center;
     height: 45px;
     line-height: 45px;
@@ -53,9 +74,8 @@ section {
     overflow: hidden;
     padding-right: 38px;
 }
-/*
- * 优惠卷
- */
+
+/*优惠卷*/
 .gray { 
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
@@ -65,7 +85,9 @@ section {
     filter: gray;
 }
 .coupon-nav,
-.myorder-nav{ margin: 10px;}
+.myorder-nav{
+    margin: 10px;
+}
 .coupon-list{
     height: 35px;
     line-height: 35px;
@@ -91,13 +113,15 @@ section {
     background-color: #ffa935;
     vertical-align: middle;
 }
-.coupon-content ul{ margin: 10px;}
-.myorder-content ul{ margin: 10px 0;}
-.cc-all ul,.mc-all{ margin: 0;}
-/*.cc-all ul li{ 
-    padding: 10px 10px;
-    border-bottom: 1px solid #EDEDED;
-}*/
+.coupon-content ul{
+    margin: 10px;
+}
+.myorder-content ul{
+    margin: 10px 0;
+}
+.cc-all ul,.mc-all{
+    margin: 0;
+}
 .cc-mask {
     position: relative;
     background: #fff none repeat scroll 0% 0%;
@@ -112,60 +136,22 @@ section {
     text-shadow: 0px 0px 1px #F0F0F0;
     color: #ffa935;
 }
-.cc-two ul li .coupon-text{ color: #f23030;}
-.cc-three ul li .coupon-text{ color: #959595;}
+.cc-two ul li .coupon-text{
+    color: #f23030;
+}
+.cc-three ul li .coupon-text{
+    color: #959595;
+}
 .cc-all ul li .coupon-text>span{
     color: #ccc;
     text-shadow: none;
 }
-.tab_content{ display: none !important;}
-.show{ display: block !important;}
-
-/*li.honbao {
-    background-color: #fe905a;
-    color: #FFF;
-    border-radius: 10px;
-    padding: 0.5rem;
-    position: relative;
-    height: 130px;
-    margin-bottom: 0.5rem;
+.tab_content{
+    display: none !important;
 }
-em.status {
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    font-size: 1rem;
-    font-style: normal;
+.show{
+    display: block !important;
 }
-.serial_number {
-    border-bottom: 1px dashed #fa5e11;
-    height: 2rem;
-    line-height: 2rem;
-    font-size: 1rem;
-}
-span.Money {
-    font-size: 3rem;
-    font-weight: bold;
-    float: left;
-}
-i {
-    font-size: 2rem;
-    font-weight: normal;
-}
-h3 {
-    font-size: 1rem;
-    font-weight: normal;
-    position: absolute;
-    top: 99px;
-    left: 20px;
-}
-.honbao .time {
-    margin-top: 5.0rem;
-    line-height: 24px;
-}*/
-
-
-
 .yhq-pic {
     background: url(../images/yhq.png) no-repeat;
     background-size: 100% 100%;
@@ -217,6 +203,4 @@ h3 {
     padding-top: 20px;
     left: 35%;
 }
-
-
 
