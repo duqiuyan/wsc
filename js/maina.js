@@ -67,7 +67,5 @@ window.onload=function(){
 		cover.style.display="none";
 		// guideBox.style.display="none";
 	}
-	//设置cookie  Google Chrome只支持在线网站的cookie的读写操作，对本地html的cookie操作是禁止的。
-	document.cookie="name=onelyLogin";
-	alert(document.cookie);
+	
 }
