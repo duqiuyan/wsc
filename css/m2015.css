@@ -218,7 +218,7 @@ a.on.active .vip{color: red;}
 .clearfloat {background-color: #fff;}
 dt.go {font-size: 12px;margin-left: 40px;margin-top: -30px;}
 .feedback .row {width: 100%;background-color: #fff;}
-.mui-input-row {padding-bottom: 120px;}
+.mui-input-row {padding-bottom: 128px;}
 textarea {line-height: 20px;width: 80%;float: right;padding: 5px 8px;-webkit-user-select: text;border: 1px solid #eee;outline: 0;background-color: #eee;-webkit-appearance: none;margin-right: 10px;border-radius: 5px;font-size: 14px;}
 .address i,.service i,.time i,.number i,.coupon i{font-size: 24px;line-height: 38px;}
 p.from {font-size: 16px;color: #333333;line-height: 28px;padding-bottom: 5px;}
@@ -253,4 +253,4 @@ label {font-size: 14px;color: #333;}
 .beizhu{margin-bottom: 45px;}
 .beizhu p{color: #f44623;}
 p.fromto img {float: right;width: 16px;margin-top: 3px;}
-textarea#question {margin-top: 10px;float: left;margin-left: 40px;}
+textarea#question {margin-top: 10px;float: left;margin-left: 40px;height: 50px;}
