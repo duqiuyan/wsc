@@ -12,7 +12,7 @@
         <link rel="stylesheet" type="text/css" href="css/m2015.css"/> 
         <script src="js/zepto.min.js" type="text/javascript"></script> 
         <script src="js/main.js" type="text/javascript"></script> 
-        <!-- <script src="js/maina.js" type="text/javascript"></script> -->
+        <script src="js/maina.js" type="text/javascript"></script>
         <script src="js/swiper.min.js" type="text/javascript"></script> 
         <link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
         <style>.hot-news-roller dt{width:75px;}.hot-news-roller dd{margin-right:0;}.hot-news-roller dd ul li i{display:inline-block;border:solid 1px #f44623;color:#f44623;height:18px;line-height:18px;padding:0 5px;border-radius:5px;margin-right:5px;font-size:12px;}
@@ -281,19 +281,21 @@
         <div class="footbar"> 
             <a href="#"><img src="images/scroll-to-top-icon.png" width="50%"></a>
         </div> 
-        <!-- <div class="coverLayer" id="coverid" style="display:none;">
-        <div class="guideLayer">
-            <div class="guidePage"  style="display:none">
-                <div class="nextBtn">关闭</div>
-            </div>
-        </div>
-        <style>
-        .coverLayer{position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);}
-        .guideLayer{position:absolute;top:0;left:0;width:100%;height:100%;background:url(images/go.png) right bottom no-repeat;}
-        .guidePage{position:absolute;top:0;left:0;width:100%;height:100%;}
-        .nextBtn{background:url(images/btn.jpg) center center no-repeat;position:absolute;left: 45%;width:88px;height:32px;text-indent:-999px;cursor:pointer;}
-        </style> -->
     </div>
+    <div class="coverLayer" id="coverid" style="display:none;">
+    <div class="guideLayer">
+        <div class="guidePage"  style="display:none">
+            <div class="nextBtn">关闭</div>
+            <img src="images/goto.png">
+        </div>
+    </div>
+    <style>
+    .coverLayer{position:absolute;z-index: 9999;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);}
+    .guideLayer{position:absolute;top:0;width:100%;height:100%;}
+    .guidePage{position:absolute;top:0;left:0;width:100%;height:100%;}
+    .guidePage img {width: 100%;height: 100%;}
+    .nextBtn{position: absolute;margin-top: 100%;left: 82%;color: #fff;border: 1px solid #fff;width: 12%;border-radius: 3px;text-align: center;font-size: 0.6rem;}
+    </style>
     <script>var url =location.href;var platfomrs =["360ad","goad","juxad","zhtad","ttad","tead","snswxtsad","snswxgnad","snsxlad","snstxad","snsqzad","snstbzad","snstbwad","snsblad","snshzad","snsqtad","mgzhad","mttad"];for (index in platfomrs) {if (url.indexOf(platfomrs[index]) >0) {Cookie.Set("sem","on",60 *60 *3);} }</script>  
     <script>$("#closeAppTJ").click(function () {$("#appBanner").hide();Cookie.Set("app_banner",1);});$(function () {if (Cookie.Get("app_banner") !=1 &&Cookie.Get("isApp") !=1) {$("#appBanner").show();}
     });</script> 
