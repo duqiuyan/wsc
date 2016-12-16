@@ -287,7 +287,7 @@ dt.go {font-size: 12px;margin-left: 36px;margin-top: -30px;}
 .feedback .row {width: 100%;background-color: #fff;}
 .mui-input-row {padding-bottom: 120px;}
 textarea {line-height: 20px;width: 80%;float: right;padding: 5px 8px;-webkit-user-select: text;border: 1px solid #eee;outline: 0;background-color: #eee;-webkit-appearance: none;margin-right: 10px;border-radius: 5px;font-size: 14px;}
-.address i,.service i,.time i,.number i,.coupon i{font-size: 20px;line-height: 38px;}
+.address i,.service i,.time i,.number i,.coupon i{font-size: 24px;line-height: 38px;}
 p.from {font-size: 16px;color: #333333;line-height: 28px;padding-bottom: 5px;}
 .address,.service,.time,.number,.coupon{margin-left: 12px;}
 p.from img {float: right;width: 16px;margin-top: -2px;}
